@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/betterend/client.json"
+hash = "eb8c84c3df302a2e2948d1f6db19c0769247cc0e8bda1546af0639526637615a"
+
+[[files]]
 file = "config/fabric_loader_dependencies.json"
 hash = "0693b198129e91fa8279f5d74a05b5d1408805aed35f43beadc7d8fb52006bcd"
 
