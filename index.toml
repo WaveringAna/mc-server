@@ -19,8 +19,8 @@ hash = "c91b42054112616b32ecc4e812ca84a2acf939d4f91814a28a8385cdc9427e6d"
 metafile = true
 
 [[files]]
-file = "mods/athena-ctm.pw.toml"
-hash = "5601649308a7d9f1658a942bbd48d3bd899a81fabd4ea1296952b48474d1ee1d"
+file = "mods/athena.pw.toml"
+hash = "fff0b46fc8b9e9c44f4b6af6ce8c90d12e79b955506f6884986647011d92abc6"
 metafile = true
 
 [[files]]
@@ -115,7 +115,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "c45656db928ed544c927449b5ceac0feef9488b0ea4154cab9199b37817cd4d5"
+hash = "c4c639fd22fcca51828999d296664e7a73b4488c7441d97cda51dfe8ccec218b"
 metafile = true
 
 [[files]]
@@ -165,7 +165,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "85a3f8736e4115b9f07e466865500fdd6b2e51c2848a33739df7f24507b80319"
+hash = "8a9bd78fff3a7f35205cf1c923b7ec6ba208766255a04ce519372570ad160a52"
 metafile = true
 
 [[files]]
