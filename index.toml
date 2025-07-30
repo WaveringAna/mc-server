@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fabric_loader_dependencies.json"
+hash = "0693b198129e91fa8279f5d74a05b5d1408805aed35f43beadc7d8fb52006bcd"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "a8a66453b1723d1daf27b49a9902a32a1fea0335dd49862be2be70777c5ecfc3"
 metafile = true
@@ -298,6 +302,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "930c62a2d832d9b9dac1637a89265415007eba0033e84cbc1b9b80bd6f483554"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "85e218135c26643e5802980d2f0bad5f6229e96d5231471f5a1b249520e7e8b3"
 metafile = true
 
 [[files]]
