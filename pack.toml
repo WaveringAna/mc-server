@@ -1,0 +1,13 @@
+name = "vanillaish"
+author = "meowskullz"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "06a767d96ffd6cab55bbf92ba3012d332668f87bf4f5531ade9b98c1716b5131"
+
+[versions]
+fabric = "0.17.0"
+minecraft = "1.21.1"

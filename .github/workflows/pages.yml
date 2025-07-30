@@ -1,0 +1,32 @@
+# .github/workflows/pages.yml
+name: Pages deploy (whole repo)
+
+on:                     # run on every push to main or manually
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages:    write
+  id-token: write        # OIDC for Pages
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4   # full tree at $GITHUB_WORKSPACE
+        with:
+          fetch-depth: 1            # default; keeps clone fast:contentReference[oaicite:1]{index=1}
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .                  # root of the repo:contentReference[oaicite:2]{index=2}
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
